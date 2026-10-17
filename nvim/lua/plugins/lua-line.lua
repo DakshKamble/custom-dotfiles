@@ -11,6 +11,7 @@ return {
                 options = {
                     theme = "auto",
                     globalstatus = true,
+                    ignore_focus = { "neo-tree" },
                     icons_enabled = true,
                 },
                 sections = {

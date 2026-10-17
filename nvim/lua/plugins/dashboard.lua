@@ -23,8 +23,8 @@ return {
         { desc = "Plugins", group = "Number", key = "p", action = "Lazy" },
         { desc = "Quit", group = "DiagnosticError", key = "q", action = "qa" },
       },
-      project = { enable = true, limit = 8, action = "Telescope find_files cwd=" },
-      mru = { enable = true, limit = 10 },
+      project = { enable = false },
+      mru = { enable = false },
     },
   },
 }
